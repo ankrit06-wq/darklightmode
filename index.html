@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark/Light Mode Toggle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome App</h1>
+        <div class="theme-switch-container">
+            <i class="fas fa-sun"></i>
+            <label class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+            <i class="fas fa-moon"></i>
+        </div>
+    </header>
+
+    <main>
+        <h2>Welcome!</h2>
+        <p>This is a simple application to demonstrate a dark and light mode theme switcher. Click the toggle in the header to change the theme.</p>
+        <button class="primary-button">Click Me</button>
+        <div class="card">
+            <h3>A Sample Card</h3>
+            <p>Cards and other components will also adapt to the new theme.</p>
+        </div>
+    </main>
+    
+    <!-- IMPORTANT: Load script at the end of the body -->
+    <script src="script.js"></script>
+</body>
+</html>
